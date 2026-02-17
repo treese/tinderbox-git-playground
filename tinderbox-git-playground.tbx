@@ -1,971 +1,971 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<tinderbox version="2" revision="15" savedBy="version 11.5.2 b771" uuid="98A6CB2F-9781-4509-A3CA-0BAAEBE77DE5" >
-<attrib Name="anything" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="System" parent="anything" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="AI" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="DominantLanguage" parent="AI" editable="1" visibleInEditor="1" lines="1" default="" >
+<tinderbox version="2" revision="14" savedBy="version 9.2.0 b553" uuid="98A6CB2F-9781-4509-A3CA-0BAAEBE77DE5" >
+<attrib Name="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="System" parent="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AI" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="DominantLanguage" parent="AI" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="NLNames" parent="AI" editable="1" visibleInEditor="1" lines="1" type="8" default="" >
+<attrib Name="NLNames" parent="AI" editable="1" visibleInEditor="1" type="8" default="" >
 </attrib>
-<attrib Name="NLOrganizations" parent="AI" editable="1" visibleInEditor="1" lines="1" type="8" default="" >
+<attrib Name="NLOrganizations" parent="AI" editable="1" visibleInEditor="1" type="8" default="" >
 </attrib>
-<attrib Name="NLPlaces" parent="AI" editable="1" visibleInEditor="1" lines="1" type="8" default="" >
+<attrib Name="NLPlaces" parent="AI" editable="1" visibleInEditor="1" type="8" default="" >
 </attrib>
-<attrib Name="NLTags" parent="AI" editable="1" visibleInEditor="1" lines="1" type="8" default="" >
+<attrib Name="NLTags" parent="AI" editable="1" visibleInEditor="1" type="8" default="" >
 </attrib>
-<attrib Name="Sentiment" parent="AI" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="Sentiment" parent="AI" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="Sentiments" parent="AI" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
+<attrib Name="Sentiments" parent="AI" editable="1" visibleInEditor="1" type="10" default="" >
 </attrib>
 </attrib>
-<attrib Name="Agent" parent="System" editable="0" visibleInEditor="1" lines="1" type="4" default="false" >
-<attrib Name="AgentAction" parent="Agent" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="Agent" parent="System" editable="0" visibleInEditor="1" type="4" default="false" >
+<attrib Name="AgentAction" parent="Agent" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="AgentCaseSensitive" parent="Agent" editable="1" visibleInEditor="1" lines="1" type="4" default="true" >
+<attrib Name="AgentCaseSensitive" parent="Agent" editable="1" visibleInEditor="1" type="4" default="true" >
 </attrib>
-<attrib Name="AgentPriority" parent="Agent" editable="1" visibleInEditor="1" lines="1" type="2" default="1" >
+<attrib Name="AgentPriority" parent="Agent" editable="1" visibleInEditor="1" type="2" default="1" >
 </attrib>
-<attrib Name="AgentQuery" parent="Agent" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="AgentQuery" parent="Agent" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="CleanupAction" parent="Agent" editable="1" visibleInEditor="1" lines="1" canInherit="0" default="grid" >
+<attrib Name="CleanupAction" parent="Agent" editable="1" visibleInEditor="1" canInherit="0" default="grid" >
 </attrib>
 </attrib>
-<attrib Name="Appearance" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="AccentColor" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="1" default="dark warm gray dark" >
+<attrib Name="Appearance" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AccentColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="dark warm gray dark" >
 </attrib>
-<attrib Name="Badge" parent="Appearance" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Badge" parent="Appearance" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="BadgeMonochrome" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="BadgeMonochrome" parent="Appearance" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="BadgeSize" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="BadgeSize" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="Border" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="2" default="1" >
+<attrib Name="Border" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="1" >
 </attrib>
-<attrib Name="BorderBevel" parent="Appearance" editable="1" visibleInEditor="1" lines="1" default="plain" >
+<attrib Name="BorderBevel" parent="Appearance" editable="1" visibleInEditor="1" default="plain" >
 </attrib>
-<attrib Name="BorderColor" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="1" default="automatic" >
+<attrib Name="BorderColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="automatic" >
 </attrib>
-<attrib Name="BorderDash" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="BorderDash" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="CaptionAlignment" parent="Appearance" editable="1" visibleInEditor="1" lines="1" default="left" >
+<attrib Name="CaptionAlignment" parent="Appearance" editable="1" visibleInEditor="1" default="left" >
 </attrib>
-<attrib Name="CaptionColor" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="1" default="blue" >
+<attrib Name="CaptionColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="blue" >
 </attrib>
-<attrib Name="CaptionFont" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="11" default="SketchnoteSquare" >
+<attrib Name="CaptionFont" parent="Appearance" editable="1" visibleInEditor="1" type="11" default="SketchnoteSquare" >
 </attrib>
-<attrib Name="CaptionOpacity" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="2" default="1" >
+<attrib Name="CaptionOpacity" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="1" >
 </attrib>
-<attrib Name="CaptionSize" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="2" default="100" >
+<attrib Name="CaptionSize" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="100" >
 </attrib>
-<attrib Name="Color" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="1" default="7" >
+<attrib Name="Color" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="7" >
 </attrib>
-<attrib Name="Flags" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="10" canInherit="0" default="" >
+<attrib Name="Flags" parent="Appearance" editable="1" visibleInEditor="1" type="10" canInherit="0" default="" >
 </attrib>
-<attrib Name="Opacity" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="2" default="1" >
+<attrib Name="Opacity" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="1" >
 </attrib>
-<attrib Name="Pattern" parent="Appearance" editable="1" visibleInEditor="1" lines="1" default="plain" >
+<attrib Name="Pattern" parent="Appearance" editable="1" visibleInEditor="1" default="plain" >
 </attrib>
-<attrib Name="PlotColor" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="1" default="light green" >
+<attrib Name="PlotColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="light green" >
 </attrib>
-<attrib Name="Shadow" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="Shadow" parent="Appearance" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="ShadowBlur" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="2" default="5" >
+<attrib Name="ShadowBlur" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="5" >
 </attrib>
-<attrib Name="ShadowColor" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="1" default="lighter black" >
+<attrib Name="ShadowColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="lighter black" >
 </attrib>
-<attrib Name="ShadowDistance" parent="Appearance" editable="1" visibleInEditor="1" lines="1" type="2" default="5" >
+<attrib Name="ShadowDistance" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="5" >
 </attrib>
-<attrib Name="Shape" parent="Appearance" editable="1" visibleInEditor="1" lines="1" suggested="normal;rectangle;rounded;oval;diamond;tag;vertical tag;bubble;hex;lozenge;cloud;leaf;banner;arrow" default="" >
+<attrib Name="Shape" parent="Appearance" editable="1" visibleInEditor="1" suggested="normal;rectangle;rounded;oval;diamond;tag;vertical tag;bubble;hex;lozenge;cloud;leaf;banner;arrow" default="" >
 </attrib>
 </attrib>
-<attrib Name="Composites" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="Associates" parent="Composites" editable="0" visibleInEditor="1" lines="1" type="8" canInherit="0" default="" >
+<attrib Name="Composites" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Associates" parent="Composites" editable="0" visibleInEditor="1" type="8" canInherit="0" default="" >
 </attrib>
-<attrib Name="IsComposite" parent="Composites" editable="0" visibleInEditor="1" lines="1" type="4" canInherit="0" default="false" >
+<attrib Name="IsComposite" parent="Composites" editable="0" visibleInEditor="1" type="4" canInherit="0" default="false" >
 </attrib>
-<attrib Name="IsMultiple" parent="Composites" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="IsMultiple" parent="Composites" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="NeverComposite" parent="Composites" editable="1" visibleInEditor="1" lines="1" type="4" canInherit="0" default="true" >
+<attrib Name="NeverComposite" parent="Composites" editable="1" visibleInEditor="1" type="4" canInherit="0" default="true" >
 </attrib>
-<attrib Name="OnJoin" parent="Composites" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="OnJoin" parent="Composites" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="Role" parent="Composites" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Role" parent="Composites" editable="1" visibleInEditor="1" default="" >
 </attrib>
 </attrib>
-<attrib Name="Events" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="DueDate" parent="Events" editable="1" visibleInEditor="1" lines="1" type="5" default="never" >
+<attrib Name="Events" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="DueDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
 </attrib>
-<attrib Name="EndDate" parent="Events" editable="1" visibleInEditor="1" lines="1" type="5" default="never" >
+<attrib Name="EndDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
 </attrib>
-<attrib Name="Participants" parent="Events" editable="1" visibleInEditor="1" lines="1" type="8" default="" >
+<attrib Name="StartDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
 </attrib>
-<attrib Name="StartDate" parent="Events" editable="1" visibleInEditor="1" lines="1" type="5" default="never" >
+<attrib Name="TimelineAliases" parent="Events" editable="1" visibleInEditor="1" type="4" default="true" >
 </attrib>
-<attrib Name="TimelineAliases" parent="Events" editable="1" visibleInEditor="1" lines="1" type="4" default="true" >
+<attrib Name="TimelineBand" parent="Events" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="TimelineBand" parent="Events" editable="1" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="TimelineBandLabelColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="black" >
 </attrib>
-<attrib Name="TimelineBandLabelColor" parent="Events" editable="1" visibleInEditor="1" lines="1" type="1" default="black" >
+<attrib Name="TimelineBandLabelOpacity" parent="Events" editable="1" visibleInEditor="1" type="2" default="0.25" >
 </attrib>
-<attrib Name="TimelineBandLabelOpacity" parent="Events" editable="1" visibleInEditor="1" lines="1" type="2" default="0.25" >
+<attrib Name="TimelineBandLabels" parent="Events" editable="1" visibleInEditor="1" type="10" default="" >
 </attrib>
-<attrib Name="TimelineBandLabels" parent="Events" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
+<attrib Name="TimelineColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="lighter warm gray" >
 </attrib>
-<attrib Name="TimelineColor" parent="Events" editable="1" visibleInEditor="1" lines="1" type="1" default="lighter warm gray" >
+<attrib Name="TimelineDescendants" parent="Events" editable="1" visibleInEditor="1" type="4" default="true" >
 </attrib>
-<attrib Name="TimelineDescendants" parent="Events" editable="1" visibleInEditor="1" lines="1" type="4" default="true" >
+<attrib Name="TimelineEnd" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
 </attrib>
-<attrib Name="TimelineDrawLinks" parent="Events" editable="1" visibleInEditor="1" lines="1" type="4" default="true" >
+<attrib Name="TimelineEndAttribute" parent="Events" editable="1" visibleInEditor="1" default="EndDate" >
 </attrib>
-<attrib Name="TimelineEnd" parent="Events" editable="1" visibleInEditor="1" lines="1" type="5" default="never" >
+<attrib Name="TimelineGridColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="#009090" >
 </attrib>
-<attrib Name="TimelineEndAttribute" parent="Events" editable="1" visibleInEditor="1" lines="1" default="EndDate" >
+<attrib Name="TimelineMarker" parent="Events" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="TimelineGridColor" parent="Events" editable="1" visibleInEditor="1" lines="1" type="1" default="#009090" >
+<attrib Name="TimelineScaleColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="cool gray" >
 </attrib>
-<attrib Name="TimelineMarker" parent="Events" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="TimelineScaleColor2" parent="Events" editable="1" visibleInEditor="1" type="1" default="" >
 </attrib>
-<attrib Name="TimelineScaleColor" parent="Events" editable="1" visibleInEditor="1" lines="1" type="1" default="cool gray" >
+<attrib Name="TimelineStart" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
 </attrib>
-<attrib Name="TimelineScaleColor2" parent="Events" editable="1" visibleInEditor="1" lines="1" type="1" default="" >
+<attrib Name="TimelineStartAttribute" parent="Events" editable="1" visibleInEditor="1" default="StartDate" >
 </attrib>
-<attrib Name="TimelineStart" parent="Events" editable="1" visibleInEditor="1" lines="1" type="5" default="never" >
+<attrib Name="Participants" parent="Events" editable="1" visibleInEditor="1" type="8" default="" >
 </attrib>
-<attrib Name="TimelineStartAttribute" parent="Events" editable="1" visibleInEditor="1" lines="1" default="StartDate" >
+<attrib Name="TimelineDrawLinks" parent="Events" editable="1" visibleInEditor="1" type="4" default="true" >
 </attrib>
 </attrib>
-<attrib Name="Gaudi" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="GaudiHidden" parent="Gaudi" editable="1" visibleInEditor="1" lines="1" type="4" canInherit="0" default="false" >
+<attrib Name="General" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AdornmentCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="Xg" parent="Gaudi" editable="1" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="Aliases" parent="General" editable="1" visibleInEditor="1" type="10" default="" >
 </attrib>
-<attrib Name="Yg" parent="Gaudi" editable="1" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="Caption" parent="General" editable="1" visibleInEditor="1" default="" >
 </attrib>
+<attrib Name="Checked" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="General" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="AdornmentCount" parent="General" editable="0" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="ChildCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="Aliases" parent="General" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
+<attrib Name="ClusterTerms" parent="General" editable="1" visibleInEditor="1" type="8" default="" >
 </attrib>
-<attrib Name="Caption" parent="General" editable="1" visibleInEditor="1" lines="1" canInherit="0" default="" >
+<attrib Name="Container" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="" >
 </attrib>
-<attrib Name="Checked" parent="General" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="Created" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
 </attrib>
-<attrib Name="ChildCount" parent="General" editable="0" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="CreatedFrom" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="" >
 </attrib>
-<attrib Name="ClusterTerms" parent="General" editable="1" visibleInEditor="1" lines="1" type="8" default="" >
+<attrib Name="Creator" parent="General" editable="0" visibleInEditor="1" kind="1" canInherit="0" default="Win Treese" >
 </attrib>
-<attrib Name="Container" parent="General" editable="1" visibleInEditor="1" lines="1" canInherit="0" default="" >
+<attrib Name="DescendantCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="Created" parent="General" editable="0" visibleInEditor="1" lines="1" type="5" canInherit="0" default="never" >
+<attrib Name="DisplayExpression" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="CreatedFrom" parent="General" editable="1" visibleInEditor="1" lines="1" canInherit="0" default="" >
+<attrib Name="DisplayExpressionDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
 </attrib>
-<attrib Name="Creator" parent="General" editable="0" visibleInEditor="1" lines="1" kind="1" canInherit="0" default="Win Treese" >
+<attrib Name="DisplayName" parent="General" editable="0" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="DescendantCount" parent="General" editable="0" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="Edict" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="DisplayExpression" parent="General" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="EdictDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
 </attrib>
-<attrib Name="DisplayExpressionDisabled" parent="General" editable="1" visibleInEditor="1" lines="1" type="4" canInherit="0" default="false" >
+<attrib Name="File" parent="General" editable="1" visibleInEditor="1" type="3" default="" >
 </attrib>
-<attrib Name="DisplayName" parent="General" editable="0" visibleInEditor="1" lines="1" default="" >
+<attrib Name="HoverExpression" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="DoNotDelete" parent="General" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="HoverImage" parent="General" editable="1" visibleInEditor="1" type="3" default="" >
 </attrib>
-<attrib Name="Edict" parent="General" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="HoverOpacity" parent="General" editable="1" visibleInEditor="1" type="2" default="0.5" >
 </attrib>
-<attrib Name="EdictDisabled" parent="General" editable="1" visibleInEditor="1" lines="1" type="4" canInherit="0" default="false" >
+<attrib Name="ID" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="File" parent="General" editable="1" visibleInEditor="1" lines="1" type="3" default="" >
+<attrib Name="InboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="HoverBackgroundColor" parent="General" editable="1" visibleInEditor="1" lines="1" type="1" default="black" >
+<attrib Name="IsAction" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="HoverExpression" parent="General" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="IsAdornment" parent="General" editable="0" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="HoverImage" parent="General" editable="1" visibleInEditor="1" lines="1" type="3" default="" >
+<attrib Name="IsAlias" parent="General" editable="0" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="HoverOpacity" parent="General" editable="1" visibleInEditor="1" lines="1" type="2" default="0.5" >
+<attrib Name="IsPrototype" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
 </attrib>
-<attrib Name="ID" parent="General" editable="0" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="LocalAttributes" parent="General" editable="0" visibleInEditor="1" type="8" canInherit="0" default="" >
 </attrib>
-<attrib Name="IDString" parent="General" editable="0" visibleInEditor="1" lines="1" canInherit="0" default="" >
+<attrib Name="Modified" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
 </attrib>
-<attrib Name="InboundLinkCount" parent="General" editable="0" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="Name" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="untitled" >
 </attrib>
-<attrib Name="IsAction" parent="General" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="OnAdd" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="IsAdornment" parent="General" editable="0" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="OnRemove" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="IsAgent" parent="General" editable="0" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="OutboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="IsAlias" parent="General" editable="0" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="OutlineDepth" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="IsPrototype" parent="General" editable="1" visibleInEditor="1" lines="1" type="4" canInherit="0" default="false" >
+<attrib Name="OutlineOrder" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="LocalAttributes" parent="General" editable="0" visibleInEditor="1" lines="1" type="8" canInherit="0" default="" >
+<attrib Name="Path" parent="General" editable="0" visibleInEditor="1" canInherit="0" default="" >
 </attrib>
-<attrib Name="Modified" parent="General" editable="0" visibleInEditor="1" lines="1" type="5" canInherit="0" default="never" >
+<attrib Name="PlainLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="Name" parent="General" editable="1" visibleInEditor="1" lines="1" canInherit="0" default="untitled" >
+<attrib Name="Private" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="OnAdd" parent="General" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="Prototype" parent="General" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="OnPaste" parent="General" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="PrototypeBequeathsChildren" parent="General" editable="1" visibleInEditor="1" type="4" default="true" >
 </attrib>
-<attrib Name="OnRemove" parent="General" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="Rule" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="OutboundLinkCount" parent="General" editable="0" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="RuleDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
 </attrib>
-<attrib Name="OutlineDepth" parent="General" editable="0" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="Searchable" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="true" >
 </attrib>
-<attrib Name="OutlineOrder" parent="General" editable="0" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="SelectionCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="Path" parent="General" editable="0" visibleInEditor="1" lines="1" canInherit="0" default="" >
+<attrib Name="SiblingOrder" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="PlainLinkCount" parent="General" editable="0" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="Subtitle" parent="General" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Private" parent="General" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="TextLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="Prototype" parent="General" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="WebLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="PrototypeBequeathsChildren" parent="General" editable="1" visibleInEditor="1" lines="1" type="4" default="true" >
+<attrib Name="DoNotDelete" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="Rule" parent="General" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="HoverBackgroundColor" parent="General" editable="1" visibleInEditor="1" type="1" default="black" >
 </attrib>
-<attrib Name="RuleDisabled" parent="General" editable="1" visibleInEditor="1" lines="1" type="4" canInherit="0" default="false" >
+<attrib Name="IDString" parent="General" editable="0" visibleInEditor="1" canInherit="0" default="" >
 </attrib>
-<attrib Name="RunCommandShell" parent="General" editable="1" visibleInEditor="1" lines="1" default="/bin/sh" >
+<attrib Name="IsAgent" parent="General" editable="0" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="Searchable" parent="General" editable="1" visibleInEditor="1" lines="1" type="4" canInherit="0" default="true" >
+<attrib Name="OnPaste" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="SelectionCount" parent="General" editable="0" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="RunCommandShell" parent="General" editable="1" visibleInEditor="1" default="/bin/sh" >
 </attrib>
-<attrib Name="SiblingOrder" parent="General" editable="1" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="Subtitle" parent="General" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Grid" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="GridColor" parent="Grid" editable="1" visibleInEditor="1" type="1" default="#ffffff" >
 </attrib>
-<attrib Name="TextLinkCount" parent="General" editable="0" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="GridColumns" parent="Grid" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="WebLinkCount" parent="General" editable="0" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="GridLabelFont" parent="Grid" editable="1" visibleInEditor="1" type="11" default="IdealSansSSm-Book" >
 </attrib>
+<attrib Name="GridLabelSize" parent="Grid" editable="1" visibleInEditor="1" type="2" default="10" >
 </attrib>
-<attrib Name="Grid" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="GridColor" parent="Grid" editable="1" visibleInEditor="1" lines="1" type="1" default="#ffffff" >
+<attrib Name="GridLabels" parent="Grid" editable="1" visibleInEditor="1" type="10" default="" >
 </attrib>
-<attrib Name="GridColumns" parent="Grid" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="GridOpacity" parent="Grid" editable="1" visibleInEditor="1" type="2" default="0.75" >
 </attrib>
-<attrib Name="GridLabelFont" parent="Grid" editable="1" visibleInEditor="1" lines="1" type="11" default="IdealSansSSm-Book" >
+<attrib Name="GridRows" parent="Grid" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="GridLabelSize" parent="Grid" editable="1" visibleInEditor="1" lines="1" type="2" default="10" >
 </attrib>
-<attrib Name="GridLabels" parent="Grid" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
+<attrib Name="HTML" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="HTMLBoldEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/b&gt;" >
 </attrib>
-<attrib Name="GridOpacity" parent="Grid" editable="1" visibleInEditor="1" lines="1" type="2" default="0.75" >
+<attrib Name="HTMLBoldStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;b&gt;" >
 </attrib>
-<attrib Name="GridRows" parent="Grid" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="HTMLCloud1End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
 </attrib>
+<attrib Name="HTMLCloud1Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 0.75em&quot; &gt;" >
 </attrib>
-<attrib Name="HTML" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="HTMLBoldEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/b&gt;" >
+<attrib Name="HTMLCloud2End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
 </attrib>
-<attrib Name="HTMLBoldStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;b&gt;" >
+<attrib Name="HTMLCloud2Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1em&quot; &gt;" >
 </attrib>
-<attrib Name="HTMLCloud1End" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/span&gt;" >
+<attrib Name="HTMLCloud3End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
 </attrib>
-<attrib Name="HTMLCloud1Start" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;span style=&quot;font-size: 0.75em&quot; &gt;" >
+<attrib Name="HTMLCloud3Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1.4em&quot; &gt;" >
 </attrib>
-<attrib Name="HTMLCloud2End" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/span&gt;" >
+<attrib Name="HTMLCloud4End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
 </attrib>
-<attrib Name="HTMLCloud2Start" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;span style=&quot;font-size: 1em&quot; &gt;" >
+<attrib Name="HTMLCloud4Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2em&quot; &gt;" >
 </attrib>
-<attrib Name="HTMLCloud3End" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/span&gt;" >
+<attrib Name="HTMLCloud5End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
 </attrib>
-<attrib Name="HTMLCloud3Start" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;span style=&quot;font-size: 1.4em&quot; &gt;" >
+<attrib Name="HTMLCloud5Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2.8em&quot; &gt;" >
 </attrib>
-<attrib Name="HTMLCloud4End" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/span&gt;" >
+<attrib Name="HTMLCodeEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/code&gt;" >
 </attrib>
-<attrib Name="HTMLCloud4Start" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;span style=&quot;font-size: 2em&quot; &gt;" >
+<attrib Name="HTMLCodeStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;code&gt;" >
 </attrib>
-<attrib Name="HTMLCloud5End" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/span&gt;" >
+<attrib Name="HTMLDontExport" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="HTMLCloud5Start" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;span style=&quot;font-size: 2.8em&quot; &gt;" >
+<attrib Name="HTMLEntities" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="HTMLCodeEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/code&gt;" >
+<attrib Name="HTMLExportAfter" parent="HTML" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="HTMLCodeStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;code&gt;" >
+<attrib Name="HTMLExportBefore" parent="HTML" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="HTMLDontExport" parent="HTML" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="HTMLExportChildren" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
 </attrib>
-<attrib Name="HTMLEntities" parent="HTML" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="HTMLExportCommand" parent="HTML" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="HTMLExportAfter" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="HTMLExportExtension" parent="HTML" editable="1" visibleInEditor="1" default=".html" >
 </attrib>
-<attrib Name="HTMLExportBefore" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="HTMLExportFileName" parent="HTML" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="HTMLExportChildren" parent="HTML" editable="1" visibleInEditor="1" lines="1" type="4" default="true" >
+<attrib Name="HTMLExportFileNameSpacer" parent="HTML" editable="1" visibleInEditor="1" default=" " >
 </attrib>
-<attrib Name="HTMLExportCommand" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="HTMLExportPath" parent="HTML" editable="0" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="HTMLExportExtension" parent="HTML" editable="1" visibleInEditor="1" lines="1" default=".html" >
+<attrib Name="HTMLExportTemplate" parent="HTML" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="HTMLExportFileName" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="HTMLFileNameLowerCase" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="HTMLExportFileNameSpacer" parent="HTML" editable="1" visibleInEditor="1" lines="1" default=" " >
+<attrib Name="HTMLFileNameMaxLength" parent="HTML" editable="1" visibleInEditor="1" type="2" default="100" >
 </attrib>
-<attrib Name="HTMLExportPath" parent="HTML" editable="0" visibleInEditor="1" lines="1" default="" >
+<attrib Name="HTMLFirstParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
 </attrib>
-<attrib Name="HTMLExportTemplate" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="HTMLFirstParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
 </attrib>
-<attrib Name="HTMLFileNameLowerCase" parent="HTML" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="HTMLFont" parent="HTML" editable="1" visibleInEditor="1" type="11" default="Menlo" >
 </attrib>
-<attrib Name="HTMLFileNameMaxLength" parent="HTML" editable="1" visibleInEditor="1" lines="1" type="2" default="100" >
+<attrib Name="HTMLFontSize" parent="HTML" editable="1" visibleInEditor="1" type="2" default="13" >
 </attrib>
-<attrib Name="HTMLFirstParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/p&gt;" >
+<attrib Name="HTMLImageEnd" parent="HTML" editable="1" visibleInEditor="1" default="&gt;" >
 </attrib>
-<attrib Name="HTMLFirstParagraphStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;p&gt;" >
+<attrib Name="HTMLImageStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;img" >
 </attrib>
-<attrib Name="HTMLFont" parent="HTML" editable="1" visibleInEditor="1" lines="1" type="11" default="Menlo" >
+<attrib Name="HTMLIndentedParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/blockquote&gt;" >
 </attrib>
-<attrib Name="HTMLFontSize" parent="HTML" editable="1" visibleInEditor="1" lines="1" type="2" default="13" >
+<attrib Name="HTMLIndentedParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;blockquote&gt;" >
 </attrib>
-<attrib Name="HTMLImageEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&gt;" >
+<attrib Name="HTMLItalicEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/i&gt;" >
 </attrib>
-<attrib Name="HTMLImageStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;img" >
+<attrib Name="HTMLItalicStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;i&gt;" >
 </attrib>
-<attrib Name="HTMLIndentedParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/blockquote&gt;" >
+<attrib Name="HTMLLinkExtension" parent="HTML" editable="1" visibleInEditor="1" default=".html" >
 </attrib>
-<attrib Name="HTMLIndentedParagraphStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;blockquote&gt;" >
+<attrib Name="HTMLListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ul&gt;" >
 </attrib>
-<attrib Name="HTMLItalicEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/i&gt;" >
+<attrib Name="HTMLListItemEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/li&gt;" >
 </attrib>
-<attrib Name="HTMLItalicStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;i&gt;" >
+<attrib Name="HTMLListItemStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;li&gt;" >
 </attrib>
-<attrib Name="HTMLLinkExtension" parent="HTML" editable="1" visibleInEditor="1" lines="1" default=".html" >
+<attrib Name="HTMLListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ul&gt;" >
 </attrib>
-<attrib Name="HTMLListEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/ul&gt;" >
+<attrib Name="HTMLMarkdown" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="HTMLListItemEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/li&gt;" >
+<attrib Name="HTMLMarkupText" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
 </attrib>
-<attrib Name="HTMLListItemStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;li&gt;" >
+<attrib Name="HTMLOrderedListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ol&gt;" >
 </attrib>
-<attrib Name="HTMLListStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;ul&gt;" >
+<attrib Name="HTMLOrderedListItemEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/li&gt;" >
 </attrib>
-<attrib Name="HTMLMarkdown" parent="HTML" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="HTMLOrderedListItemStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;li&gt;" >
 </attrib>
-<attrib Name="HTMLMarkupText" parent="HTML" editable="1" visibleInEditor="1" lines="1" type="4" default="true" >
+<attrib Name="HTMLOrderedListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ol&gt;" >
 </attrib>
-<attrib Name="HTMLOrderedListEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/ol&gt;" >
+<attrib Name="HTMLOverwriteImages" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="HTMLOrderedListItemEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/li&gt;" >
+<attrib Name="HTMLParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
 </attrib>
-<attrib Name="HTMLOrderedListItemStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;li&gt;" >
+<attrib Name="HTMLParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
 </attrib>
-<attrib Name="HTMLOrderedListStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;ol&gt;" >
+<attrib Name="HTMLPreviewCommand" parent="HTML" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="HTMLOverwriteImages" parent="HTML" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="HTMLQuoteHTML" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="HTMLParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/p&gt;" >
+<attrib Name="HTMLStrikeEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/strike&gt;" >
 </attrib>
-<attrib Name="HTMLParagraphStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;p&gt;" >
+<attrib Name="HTMLStrikeStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;strike&gt;" >
 </attrib>
-<attrib Name="HTMLPreviewCommand" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="HTMLUnderlineEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/u&gt;" >
 </attrib>
-<attrib Name="HTMLQuoteHTML" parent="HTML" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="HTMLUnderlineStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;u&gt;" >
 </attrib>
-<attrib Name="HTMLStrikeEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/strike&gt;" >
+<attrib Name="IsTemplate" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="HTMLStrikeStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;strike&gt;" >
+<attrib Name="HTMLSubscriptEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/sub&gt;" >
 </attrib>
-<attrib Name="HTMLSubscriptEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/sub&gt;" >
+<attrib Name="HTMLSubscriptStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;sub&gt;" >
 </attrib>
-<attrib Name="HTMLSubscriptStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;sub&gt;" >
+<attrib Name="HTMLSuperscriptEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/sup&gt;" >
 </attrib>
-<attrib Name="HTMLSuperscriptEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/sup&gt;" >
+<attrib Name="HTMLSuperscriptStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;sup&gt;" >
 </attrib>
-<attrib Name="HTMLSuperscriptStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;sup&gt;" >
+<attrib Name="Marked2" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
 </attrib>
-<attrib Name="HTMLUnderlineEnd" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;/u&gt;" >
 </attrib>
-<attrib Name="HTMLUnderlineStart" parent="HTML" editable="1" visibleInEditor="1" lines="1" default="&lt;u&gt;" >
+<attrib Name="Internal" parent="System" editable="0" visibleInEditor="0" default="" >
+<attrib Name="Alias" parent="Internal" editable="0" visibleInEditor="0" type="6" default="0" >
 </attrib>
-<attrib Name="IsTemplate" parent="HTML" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="EntryScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
 </attrib>
-<attrib Name="Marked2" parent="HTML" editable="1" visibleInEditor="1" lines="1" type="4" default="true" >
+<attrib Name="ExitScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
 </attrib>
+<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" kind="21" type="100" canInherit="0" default="Rect[ 50 50 750 1150]" >
 </attrib>
-<attrib Name="InformationCity" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="CityData" parent="InformationCity" editable="1" visibleInEditor="1" lines="1" type="13" default="" >
 </attrib>
-<attrib Name="CityHidden" parent="InformationCity" editable="1" visibleInEditor="1" lines="1" type="4" canInherit="0" default="false" >
+<attrib Name="Iris" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="IrisAngle" parent="Iris" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="CityKind" parent="InformationCity" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="IrisRadius" parent="Iris" editable="1" visibleInEditor="1" type="2" default="1" >
 </attrib>
-<attrib Name="CityRotate" parent="InformationCity" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
 </attrib>
-<attrib Name="CityX" parent="InformationCity" editable="1" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="Map" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AdornmentFont" parent="Map" editable="1" visibleInEditor="1" type="11" default="RingsideCondensedSSm-Light" >
 </attrib>
-<attrib Name="CityY" parent="InformationCity" editable="1" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="Base" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
 </attrib>
+<attrib Name="Bend" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="Internal" parent="System" editable="0" visibleInEditor="0" lines="1" default="" >
-<attrib Name="Alias" parent="Internal" editable="0" visibleInEditor="0" lines="1" type="6" default="0" >
+<attrib Name="Direction" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="EntryScript" parent="Internal" editable="0" visibleInEditor="0" lines="1" default="" >
+<attrib Name="Fill" parent="Map" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="ExitScript" parent="Internal" editable="0" visibleInEditor="0" lines="1" default="" >
+<attrib Name="FillOffsetY" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" lines="1" kind="21" type="100" canInherit="0" default="Rect[ 50 50 750 1150]" >
+<attrib Name="FillOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.75" >
 </attrib>
+<attrib Name="HTMLMarkDown" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="Iris" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="IrisAngle" parent="Iris" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="Height" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="2.48" >
 </attrib>
-<attrib Name="IrisRadius" parent="Iris" editable="1" visibleInEditor="1" lines="1" type="2" default="1" >
+<attrib Name="HoverFont" parent="Map" editable="1" visibleInEditor="1" type="11" default="RingsideCondensedSSm-Med" >
 </attrib>
+<attrib Name="InteriorScale" parent="Map" editable="1" visibleInEditor="1" kind="20" type="2" default="1.5" >
 </attrib>
-<attrib Name="Map" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="AdornmentFont" parent="Map" editable="1" visibleInEditor="1" lines="1" type="11" default="RingsideCondensedSSm-Light" >
+<attrib Name="LeafBase" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
 </attrib>
-<attrib Name="Base" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0.5" >
+<attrib Name="LeafBend" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="Bend" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="LeafDirection" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="Direction" parent="Map" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="LeafTip" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
 </attrib>
-<attrib Name="Fill" parent="Map" editable="1" visibleInEditor="1" lines="1" type="3" default="" >
+<attrib Name="Lock" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="FillOffsetY" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="MapBackgroundAccentColor" parent="Map" editable="1" visibleInEditor="1" kind="24" type="1" default="gray" >
 </attrib>
-<attrib Name="FillOpacity" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0.75" >
+<attrib Name="MapBackgroundColor" parent="Map" editable="1" visibleInEditor="1" kind="3" type="1" default="gray" >
 </attrib>
-<attrib Name="HTMLMarkDown" parent="Map" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="MapBackgroundColor2" parent="Map" editable="1" visibleInEditor="1" type="1" default="gray" >
 </attrib>
-<attrib Name="Height" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" canInherit="0" default="2.48" >
+<attrib Name="MapBackgroundFill" parent="Map" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="HoverFont" parent="Map" editable="1" visibleInEditor="1" lines="1" type="11" default="RingsideCondensedSSm-Med" >
+<attrib Name="MapBackgroundFillOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.1" >
 </attrib>
-<attrib Name="InteriorScale" parent="Map" editable="1" visibleInEditor="1" lines="1" kind="20" type="2" default="1.5" >
+<attrib Name="MapBackgroundPattern" parent="Map" editable="1" visibleInEditor="1" kind="25" default="plain" >
 </attrib>
-<attrib Name="LeafBase" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0.5" >
+<attrib Name="MapBackgroundShadow" parent="Map" editable="1" visibleInEditor="1" type="4" default="true" >
 </attrib>
-<attrib Name="LeafBend" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="MapBodyTextColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
 </attrib>
-<attrib Name="LeafDirection" parent="Map" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="MapBodyTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="LeafTip" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0.5" >
+<attrib Name="MapNameSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
 </attrib>
-<attrib Name="Lock" parent="Map" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="MapScrollX" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="MapBackgroundAccentColor" parent="Map" editable="1" visibleInEditor="1" lines="1" kind="24" type="1" default="gray" >
+<attrib Name="MapScrollY" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="MapBackgroundColor" parent="Map" editable="1" visibleInEditor="1" lines="1" kind="3" type="1" default="gray" >
+<attrib Name="MapTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
 </attrib>
-<attrib Name="MapBackgroundColor2" parent="Map" editable="1" visibleInEditor="1" lines="1" type="1" default="gray" >
+<attrib Name="NameAlignment" parent="Map" editable="1" visibleInEditor="1" default="left" >
 </attrib>
-<attrib Name="MapBackgroundFill" parent="Map" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="NameBold" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="MapBackgroundFillOpacity" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0.1" >
+<attrib Name="NameColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
 </attrib>
-<attrib Name="MapBackgroundPattern" parent="Map" editable="1" visibleInEditor="1" lines="1" kind="25" default="plain" >
+<attrib Name="NameFont" parent="Map" editable="1" visibleInEditor="1" kind="2" type="11" default="IdealSansSSm-Book" >
 </attrib>
-<attrib Name="MapBackgroundShadow" parent="Map" editable="1" visibleInEditor="1" lines="1" type="4" default="true" >
+<attrib Name="NameLeading" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="MapBodyTextColor" parent="Map" editable="1" visibleInEditor="1" lines="1" type="1" default="automatic" >
+<attrib Name="NameStrike" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="MapBodyTextSize" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="PlotBackgroundColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="white" >
 </attrib>
-<attrib Name="MapNameSize" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="100" >
+<attrib Name="PlotBackgroundOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
 </attrib>
-<attrib Name="MapScrollX" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="PlotColorList" parent="Map" editable="1" visibleInEditor="1" type="10" default="2;7;3;8;4;9;0;5;1;6" >
 </attrib>
-<attrib Name="MapScrollY" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="Sticky" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="MapTextSize" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="100" >
+<attrib Name="SubtitleColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
 </attrib>
-<attrib Name="NameAlignment" parent="Map" editable="1" visibleInEditor="1" lines="1" default="left" >
+<attrib Name="SubtitleOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
 </attrib>
-<attrib Name="NameBold" parent="Map" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="SubtitleSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="75" >
 </attrib>
-<attrib Name="NameColor" parent="Map" editable="1" visibleInEditor="1" lines="1" type="1" default="automatic" >
+<attrib Name="TableExpression" parent="Map" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="NameFont" parent="Map" editable="1" visibleInEditor="1" lines="1" kind="2" type="11" default="IdealSansSSm-Book" >
+<attrib Name="TableHeading" parent="Map" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="NameLeading" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="Tip" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
 </attrib>
-<attrib Name="NameOpacity" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="1" >
+<attrib Name="TitleHeight" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="NameStrike" parent="Map" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="TitleOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="1" >
 </attrib>
-<attrib Name="NameVerticalAlignment" parent="Map" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Width" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="4" >
 </attrib>
-<attrib Name="PlotBackgroundColor" parent="Map" editable="1" visibleInEditor="1" lines="1" type="1" default="white" >
+<attrib Name="Xpos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="PlotBackgroundOpacity" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0.5" >
+<attrib Name="Ypos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="PlotColorList" parent="Map" editable="1" visibleInEditor="1" lines="1" type="10" default="2;7;3;8;4;9;0;5;1;6" >
+<attrib Name="NameOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="1" >
 </attrib>
-<attrib Name="Sticky" parent="Map" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="NameVerticalAlignment" parent="Map" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Stripe" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="Stripe" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="StripeColor" parent="Map" editable="1" visibleInEditor="1" lines="1" type="1" default="" >
+<attrib Name="StripeColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="" >
 </attrib>
-<attrib Name="SubtitleColor" parent="Map" editable="1" visibleInEditor="1" lines="1" type="1" default="automatic" >
 </attrib>
-<attrib Name="SubtitleOpacity" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0.5" >
+<attrib Name="Net" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AutoFetch" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="SubtitleSize" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="75" >
+<attrib Name="AutoFetchCommand" parent="Net" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="TableExpression" parent="Map" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="LastFetched" parent="Net" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
 </attrib>
-<attrib Name="TableHeading" parent="Map" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="NoteURL" parent="Net" editable="0" visibleInEditor="1" default="false" >
 </attrib>
-<attrib Name="Tip" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0.5" >
+<attrib Name="RawData" parent="Net" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="TitleHeight" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="URL" parent="Net" editable="1" visibleInEditor="1" type="9" default="" >
 </attrib>
-<attrib Name="TitleOpacity" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" default="1" >
+<attrib Name="ViewInBrowser" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="Width" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" canInherit="0" default="4" >
 </attrib>
-<attrib Name="Xpos" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="Outline" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="OutlineBackgroundColor" parent="Outline" editable="1" visibleInEditor="1" type="1" default="automatic" >
 </attrib>
-<attrib Name="Ypos" parent="Map" editable="1" visibleInEditor="1" lines="1" type="2" canInherit="0" default="0" >
+<attrib Name="OutlineColorSwatch" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
+<attrib Name="OutlineNameSize" parent="Outline" editable="1" visibleInEditor="1" type="2" default="100" >
 </attrib>
-<attrib Name="Net" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="AutoFetch" parent="Net" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="OutlineTextSize" parent="Outline" editable="1" visibleInEditor="1" type="2" default="100" >
 </attrib>
-<attrib Name="AutoFetchCommand" parent="Net" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="PrototypeHighlightColor" parent="Outline" editable="1" visibleInEditor="1" kind="13" type="1" default="#cceecc" >
 </attrib>
-<attrib Name="LastFetched" parent="Net" editable="0" visibleInEditor="1" lines="1" type="5" canInherit="0" default="never" >
+<attrib Name="Separator" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="NoteURL" parent="Net" editable="0" visibleInEditor="1" lines="1" default="false" >
+<attrib Name="IsSeparator" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="RawData" parent="Net" editable="1" visibleInEditor="1" lines="1" default="" >
 </attrib>
-<attrib Name="URL" parent="Net" editable="1" visibleInEditor="1" lines="1" type="9" default="" >
+<attrib Name="People" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Email" parent="People" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="ViewInBrowser" parent="Net" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="FullName" parent="People" editable="1" visibleInEditor="1" default="" >
 </attrib>
+<attrib Name="Organization" parent="People" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Outline" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="IsSeparator" parent="Outline" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="Telephone" parent="People" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="OutlineBackgroundColor" parent="Outline" editable="1" visibleInEditor="1" lines="1" type="1" default="automatic" >
+<attrib Name="Twitter" parent="People" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="OutlineColorSwatch" parent="Outline" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="EmailSubject" parent="People" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="OutlineNameSize" parent="Outline" editable="1" visibleInEditor="1" lines="1" type="2" default="100" >
+<attrib Name="EmailTemplate" parent="People" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="OutlineTextSize" parent="Outline" editable="1" visibleInEditor="1" lines="1" type="2" default="100" >
 </attrib>
-<attrib Name="PrototypeHighlightColor" parent="Outline" editable="1" visibleInEditor="1" lines="1" kind="13" type="1" default="#cceecc" >
+<attrib Name="Places" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Address" parent="Places" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Separator" parent="Outline" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="City" parent="Places" editable="1" visibleInEditor="1" default="" >
 </attrib>
+<attrib Name="Country" parent="Places" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="People" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="Email" parent="People" editable="1" visibleInEditor="1" lines="1" type="14" default="" >
+<attrib Name="District" parent="Places" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="EmailSubject" parent="People" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="FormattedAddress" parent="Places" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="EmailTemplate" parent="People" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="GeocodedAddress" parent="Places" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="FullName" parent="People" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Latitude" parent="Places" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="Organization" parent="People" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Longitude" parent="Places" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="Telephone" parent="People" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="PostalCode" parent="Places" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Twitter" parent="People" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Range" parent="Places" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
+<attrib Name="State" parent="Places" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Places" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="Address" parent="Places" editable="1" visibleInEditor="1" lines="1" default="" >
 </attrib>
-<attrib Name="City" parent="Places" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="References" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Abstract" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Country" parent="Places" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="AccessDate" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="District" parent="Places" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ArticleTitle" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="FormattedAddress" parent="Places" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Author2" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="GeocodedAddress" parent="Places" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Author3" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Latitude" parent="Places" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="Author4" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Longitude" parent="Places" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="Authors" parent="References" editable="1" visibleInEditor="1" type="10" default="" >
 </attrib>
-<attrib Name="PostalCode" parent="Places" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="BookTitle" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Range" parent="Places" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="CallNumber" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="State" parent="Places" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="DOI" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
+<attrib Name="Edition" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Poster" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="PosterCSS" parent="Poster" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ISBN" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="PosterLabels" parent="Poster" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
+<attrib Name="Issue" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="PosterSettings" parent="Poster" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Journal" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="PosterTemplate" parent="Poster" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Pages" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="PosterURL" parent="Poster" editable="1" visibleInEditor="1" lines="1" type="9" default="" >
+<attrib Name="PublicationCity" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="PosterX" parent="Poster" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
+<attrib Name="PublicationYear" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="PosterY" parent="Poster" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
+<attrib Name="Publisher" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="PosterZoom" parent="Poster" editable="1" visibleInEditor="1" lines="1" type="2" default="1" >
+<attrib Name="RefFormat" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="ScreenHeight" parent="Poster" editable="0" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="RefKeywords" parent="References" editable="1" visibleInEditor="1" type="8" default="" >
 </attrib>
-<attrib Name="ScreenWidth" parent="Poster" editable="0" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="RefType" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
+<attrib Name="ReferenceDictionary" parent="References" editable="1" visibleInEditor="1" type="13" default="" >
 </attrib>
-<attrib Name="References" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="Abstract" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ReferenceRIS" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="AccessDate" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ReferenceTitle" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="ArticleTitle" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ReferenceURL" parent="References" editable="1" visibleInEditor="1" type="9" default="" >
 </attrib>
-<attrib Name="Author2" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="SourceCreated" parent="References" editable="1" visibleInEditor="1" type="5" default="never" >
 </attrib>
-<attrib Name="Author3" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="SourceModified" parent="References" editable="1" visibleInEditor="1" type="5" default="never" >
 </attrib>
-<attrib Name="Author4" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Tags" parent="References" editable="1" visibleInEditor="1" type="8" default="" >
 </attrib>
-<attrib Name="Authors" parent="References" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
+<attrib Name="Volume" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="BookTitle" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Citations" parent="References" editable="1" visibleInEditor="1" type="13" default="" >
 </attrib>
-<attrib Name="CallNumber" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="CiteKey" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Citations" parent="References" editable="1" visibleInEditor="1" lines="1" type="13" default="" >
+<attrib Name="ReadwiseDate" parent="References" editable="1" visibleInEditor="1" type="5" default="never" >
 </attrib>
-<attrib Name="CiteKey" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ReadwiseID" parent="References" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="DOI" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ReadwiseToken" parent="References" editable="1" visibleInEditor="1" kind="28" default="" >
 </attrib>
-<attrib Name="Edition" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ReferenceData" parent="References" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="ISBN" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
 </attrib>
-<attrib Name="Issue" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Sandbox" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="MyBoolean" parent="Sandbox" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="Journal" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="MyColor" parent="Sandbox" editable="1" visibleInEditor="1" type="1" default="" >
 </attrib>
-<attrib Name="Pages" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="MyDate" parent="Sandbox" editable="1" visibleInEditor="1" type="5" default="never" >
 </attrib>
-<attrib Name="PublicationCity" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="MyDictionary" parent="Sandbox" editable="1" visibleInEditor="1" type="13" default="" >
 </attrib>
-<attrib Name="PublicationYear" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="MyInterval" parent="Sandbox" editable="1" visibleInEditor="1" type="12" default="00:00" >
 </attrib>
-<attrib Name="Publisher" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="MyList" parent="Sandbox" editable="1" visibleInEditor="1" type="10" default="" >
 </attrib>
-<attrib Name="ReadwiseDate" parent="References" editable="1" visibleInEditor="1" lines="1" type="5" default="never" >
+<attrib Name="MyNumber" parent="Sandbox" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="ReadwiseID" parent="References" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="MySet" parent="Sandbox" editable="1" visibleInEditor="1" type="8" default="" >
 </attrib>
-<attrib Name="ReadwiseToken" parent="References" editable="1" visibleInEditor="1" lines="1" kind="28" default="" >
+<attrib Name="MyString" parent="Sandbox" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="RefFormat" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
 </attrib>
-<attrib Name="RefKeywords" parent="References" editable="1" visibleInEditor="1" lines="1" type="8" default="" >
+<attrib Name="Scrivener" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="ScrivenerCompileAsIs" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
 </attrib>
-<attrib Name="RefType" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ScrivenerFileExtension" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
 </attrib>
-<attrib Name="ReferenceData" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ScrivenerFreeformFlag" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
 </attrib>
-<attrib Name="ReferenceDictionary" parent="References" editable="1" visibleInEditor="1" lines="1" type="13" default="" >
+<attrib Name="ScrivenerID" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="ReferenceRIS" parent="References" editable="1" visibleInEditor="1" lines="1" type="1" default="" >
+<attrib Name="ScrivenerIconFileName" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
 </attrib>
-<attrib Name="ReferenceTitle" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ScrivenerIgnoresTitlePrefixAndSuffix" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
 </attrib>
-<attrib Name="ReferenceURL" parent="References" editable="1" visibleInEditor="1" lines="1" type="9" default="" >
+<attrib Name="ScrivenerIncludeInCompile" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
 </attrib>
-<attrib Name="SourceCreated" parent="References" editable="1" visibleInEditor="1" lines="1" type="5" default="never" >
+<attrib Name="ScrivenerIndexCardFileExension" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
 </attrib>
-<attrib Name="SourceModified" parent="References" editable="1" visibleInEditor="1" lines="1" type="5" default="never" >
+<attrib Name="ScrivenerKeywords" parent="Scrivener" editable="1" visibleInEditor="1" type="8" default="" >
 </attrib>
-<attrib Name="Tags" parent="References" editable="1" visibleInEditor="1" lines="1" type="8" default="" >
+<attrib Name="ScrivenerLabel" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Volume" parent="References" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ScrivenerLabelID" parent="Scrivener" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
+<attrib Name="ScrivenerNote" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Sandbox" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="MyBoolean" parent="Sandbox" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="ScrivenerNoteRTF" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
 </attrib>
-<attrib Name="MyColor" parent="Sandbox" editable="1" visibleInEditor="1" lines="1" type="1" default="" >
+<attrib Name="ScrivenerPageBreakBefore" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
 </attrib>
-<attrib Name="MyDate" parent="Sandbox" editable="1" visibleInEditor="1" lines="1" type="5" default="never" >
+<attrib Name="ScrivenerPreferredExternalApplication" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
 </attrib>
-<attrib Name="MyDictionary" parent="Sandbox" editable="1" visibleInEditor="1" lines="1" type="13" default="" >
+<attrib Name="ScrivenerShowSynopsisImage" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
 </attrib>
-<attrib Name="MyInterval" parent="Sandbox" editable="1" visibleInEditor="1" lines="1" type="12" default="00:00" >
+<attrib Name="ScrivenerStatus" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="MyList" parent="Sandbox" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
+<attrib Name="ScrivenerStatusID" parent="Scrivener" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="MyNumber" parent="Sandbox" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="ScrivenerTemplateFolder" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
 </attrib>
-<attrib Name="MySet" parent="Sandbox" editable="1" visibleInEditor="1" lines="1" type="8" default="" >
+<attrib Name="ScrivenerType" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="MyString" parent="Sandbox" editable="1" visibleInEditor="1" lines="1" default="" >
 </attrib>
+<attrib Name="Sorting" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Sort" parent="Sorting" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="Scrivener" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="ScrivenerCompileAsIs" parent="Scrivener" editable="1" visibleInEditor="0" lines="1" type="4" default="false" >
+<attrib Name="SortAlso" parent="Sorting" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="ScrivenerFileExtension" parent="Scrivener" editable="1" visibleInEditor="0" lines="1" default="" >
+<attrib Name="SortAlsoTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
 </attrib>
-<attrib Name="ScrivenerFreeformFlag" parent="Scrivener" editable="1" visibleInEditor="0" lines="1" type="4" default="false" >
+<attrib Name="SortBackward" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="ScrivenerID" parent="Scrivener" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="SortBackwardAlso" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="ScrivenerIconFileName" parent="Scrivener" editable="1" visibleInEditor="0" lines="1" default="" >
+<attrib Name="SortTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
 </attrib>
-<attrib Name="ScrivenerIgnoresTitlePrefixAndSuffix" parent="Scrivener" editable="1" visibleInEditor="0" lines="1" type="4" default="false" >
 </attrib>
-<attrib Name="ScrivenerIncludeInCompile" parent="Scrivener" editable="1" visibleInEditor="0" lines="1" type="4" default="false" >
+<attrib Name="Storyspace" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="BeforeVisit" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="ScrivenerIndexCardFileExension" parent="Scrivener" editable="1" visibleInEditor="0" lines="1" default="" >
+<attrib Name="ChosenWord" parent="Storyspace" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="ScrivenerKeywords" parent="Scrivener" editable="1" visibleInEditor="1" lines="1" type="8" default="" >
+<attrib Name="Deck" parent="Storyspace" editable="1" visibleInEditor="1" type="8" default="" >
 </attrib>
-<attrib Name="ScrivenerLabel" parent="Scrivener" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="OnVisit" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="ScrivenerLabelID" parent="Scrivener" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="Requirements" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="ScrivenerNote" parent="Scrivener" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ResetAction" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
 </attrib>
-<attrib Name="ScrivenerNoteRTF" parent="Scrivener" editable="1" visibleInEditor="0" lines="1" default="" >
+<attrib Name="Visits" parent="Storyspace" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="ScrivenerPageBreakBefore" parent="Scrivener" editable="1" visibleInEditor="0" lines="1" type="4" default="false" >
 </attrib>
-<attrib Name="ScrivenerPreferredExternalApplication" parent="Scrivener" editable="1" visibleInEditor="0" lines="1" default="" >
+<attrib Name="TextFormat" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="CodeFont" parent="TextFormat" editable="1" visibleInEditor="1" type="11" default="Courier New" >
 </attrib>
-<attrib Name="ScrivenerShowSynopsisImage" parent="Scrivener" editable="1" visibleInEditor="0" lines="1" type="4" default="false" >
+<attrib Name="DisplayedAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="10" default="" >
 </attrib>
-<attrib Name="ScrivenerStatus" parent="Scrivener" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="DisplayedAttributesDateFormat" parent="TextFormat" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="ScrivenerStatusID" parent="Scrivener" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="DisplayedAttributesFont" parent="TextFormat" editable="1" visibleInEditor="1" type="11" default="IdealSansSSm-Book" >
 </attrib>
-<attrib Name="ScrivenerTemplateFolder" parent="Scrivener" editable="1" visibleInEditor="0" lines="1" type="4" default="false" >
+<attrib Name="DisplayedAttributesFontSize" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="11" >
 </attrib>
-<attrib Name="ScrivenerType" parent="Scrivener" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="HideDisplayedAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
+<attrib Name="HideKeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="Sorting" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="Sort" parent="Sorting" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="HideTitle" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="SortAlso" parent="Sorting" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="KeyAttributeDateFormat" parent="TextFormat" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="SortAlsoTransform" parent="Sorting" editable="1" visibleInEditor="1" lines="1" default="case-sensitive" >
+<attrib Name="KeyAttributeFont" parent="TextFormat" editable="1" visibleInEditor="1" type="11" default="IdealSansSSm-Book" >
 </attrib>
-<attrib Name="SortBackward" parent="Sorting" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="KeyAttributeFontSize" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="11" >
 </attrib>
-<attrib Name="SortBackwardAlso" parent="Sorting" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="KeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="10" default="" >
 </attrib>
-<attrib Name="SortTransform" parent="Sorting" editable="1" visibleInEditor="1" lines="1" default="case-sensitive" >
+<attrib Name="LeftMargin" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="2" >
 </attrib>
+<attrib Name="LineSpacing" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="100" >
 </attrib>
-<attrib Name="Storyspace" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="BeforeVisit" parent="Storyspace" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="NoSpelling" parent="TextFormat" editable="1" visibleInEditor="1" kind="27" type="4" default="false" >
 </attrib>
-<attrib Name="ChosenWord" parent="Storyspace" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ParagraphSpacing" parent="TextFormat" editable="1" visibleInEditor="1" kind="14" type="2" default="8" >
 </attrib>
-<attrib Name="Deck" parent="Storyspace" editable="1" visibleInEditor="1" lines="1" type="8" default="" >
+<attrib Name="RightMargin" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="2" >
 </attrib>
-<attrib Name="OnVisit" parent="Storyspace" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="ShowTitle" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="Requirements" parent="Storyspace" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="SmartLinks" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="true" >
 </attrib>
-<attrib Name="ResetAction" parent="Storyspace" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+<attrib Name="SmartQuotes" parent="TextFormat" editable="1" visibleInEditor="1" kind="26" type="4" default="true" >
 </attrib>
-<attrib Name="Visits" parent="Storyspace" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="SyntaxHighlighting" parent="TextFormat" editable="1" visibleInEditor="1" default="" >
 </attrib>
+<attrib Name="Tabs" parent="TextFormat" editable="1" visibleInEditor="1" default="0.25;0.25;0.25;0.25;" >
 </attrib>
-<attrib Name="Table" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="TableAttributes" parent="Table" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
+<attrib Name="TextAlign" parent="TextFormat" editable="1" visibleInEditor="1" kind="22" default="left" >
 </attrib>
-<attrib Name="TableFormat" parent="Table" editable="1" visibleInEditor="1" lines="1" type="13" default="" >
+<attrib Name="TextBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="8" type="1" default="#ffffff" >
 </attrib>
-<attrib Name="TableHidden" parent="Table" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="TextColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="7" type="1" default="#000000" >
 </attrib>
+<attrib Name="TextColorBlue" parent="TextFormat" editable="1" visibleInEditor="1" type="1" default="bright blue" >
 </attrib>
-<attrib Name="TextFormat" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="CodeFont" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="11" default="Courier New" >
+<attrib Name="TextColorGray" parent="TextFormat" editable="1" visibleInEditor="1" type="1" default="warm gray" >
 </attrib>
-<attrib Name="DisplayedAttributes" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
+<attrib Name="TextColorGreen" parent="TextFormat" editable="1" visibleInEditor="1" type="1" default="bright green" >
 </attrib>
-<attrib Name="DisplayedAttributesDateFormat" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="TextColorRed" parent="TextFormat" editable="1" visibleInEditor="1" type="1" default="bright red" >
 </attrib>
-<attrib Name="DisplayedAttributesFont" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="11" default="IdealSansSSm-Book" >
+<attrib Name="TextFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="18" type="11" default="MercurySSm-Book" >
 </attrib>
-<attrib Name="DisplayedAttributesFontSize" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="2" default="11" >
+<attrib Name="TextFontSize" parent="TextFormat" editable="1" visibleInEditor="1" kind="19" type="2" default="16" >
 </attrib>
-<attrib Name="HideDisplayedAttributes" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="TextHighlightBlue" parent="TextFormat" editable="1" visibleInEditor="1" type="1" default="#3399FF" >
 </attrib>
-<attrib Name="HideKeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="TextHighlightGreen" parent="TextFormat" editable="1" visibleInEditor="1" type="1" default="#33FF66" >
 </attrib>
-<attrib Name="HideTitle" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="TextHighlightMagenta" parent="TextFormat" editable="1" visibleInEditor="1" type="1" default="#ff66ff" >
 </attrib>
-<attrib Name="ImageSizeLimit" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="2" default="1600" >
+<attrib Name="TextHighlightRed" parent="TextFormat" editable="1" visibleInEditor="1" type="1" default="#FF5533" >
 </attrib>
-<attrib Name="KeyAttributeDateFormat" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="TextHighlightYellow" parent="TextFormat" editable="1" visibleInEditor="1" type="1" default="#ffff00" >
 </attrib>
-<attrib Name="KeyAttributeFont" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="11" default="IdealSansSSm-Book" >
+<attrib Name="TextPaneRatio" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="0.5" >
 </attrib>
-<attrib Name="KeyAttributeFontSize" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="2" default="11" >
+<attrib Name="TextPaneWidth" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="-1" >
 </attrib>
-<attrib Name="KeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
+<attrib Name="TextSidebar" parent="TextFormat" editable="1" visibleInEditor="1" kind="17" type="4" default="false" >
 </attrib>
-<attrib Name="LeftMargin" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="2" default="2" >
+<attrib Name="TextWindowHeight" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="250" >
 </attrib>
-<attrib Name="LineSpacing" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="2" default="100" >
+<attrib Name="TextWindowWidth" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="475" >
 </attrib>
-<attrib Name="NoSpelling" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" kind="27" type="4" default="false" >
+<attrib Name="TitleBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="12" type="1" default="#000000" >
 </attrib>
-<attrib Name="ParagraphSpacing" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" kind="14" type="2" default="8" >
+<attrib Name="TitleFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="4" type="11" default="IdealSansSSm-Book" >
 </attrib>
-<attrib Name="QuickListHangingIndent" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="2" default="12" >
+<attrib Name="TitleForegroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="11" type="1" default="#ffffff" >
 </attrib>
-<attrib Name="QuickListIndent" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="2" default="24" >
+<attrib Name="Ziplinks" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="true" >
 </attrib>
-<attrib Name="RightMargin" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="2" default="2" >
+<attrib Name="ImageSizeLimit" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="1600" >
 </attrib>
-<attrib Name="ShowTitle" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="QuickListHangingIndent" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="12" >
 </attrib>
-<attrib Name="SmartLinks" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="4" default="true" >
+<attrib Name="QuickListIndent" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="24" >
 </attrib>
-<attrib Name="SmartQuotes" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" kind="26" type="4" default="true" >
 </attrib>
-<attrib Name="SyntaxHighlighting" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="Textual" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="EstimatedNoteSize" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="Tabs" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" default="0.25;0.25;0.25;0.25;" >
+<attrib Name="ImageCount" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="TextAlign" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" kind="22" default="left" >
+<attrib Name="ReadOnly" parent="Textual" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="TextBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" kind="8" type="1" default="#ffffff" >
+<attrib Name="Text" parent="Textual" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="TextColor" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" kind="7" type="1" default="#000000" >
+<attrib Name="TextExportTemplate" parent="Textual" editable="1" visibleInEditor="1" kind="10" default="outline" >
 </attrib>
-<attrib Name="TextColorBlue" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="1" default="bright blue" >
+<attrib Name="TextLength" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="TextColorGray" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="1" default="warm gray" >
+<attrib Name="UpdateTextLinksAfterRename" parent="Textual" editable="1" visibleInEditor="1" type="4" default="true" >
 </attrib>
-<attrib Name="TextColorGreen" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="1" default="bright green" >
+<attrib Name="WordCount" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="TextColorRed" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="1" default="bright red" >
+<attrib Name="Wordcount" parent="Textual" editable="0" visibleInEditor="0" type="2" default="0" >
 </attrib>
-<attrib Name="TextFont" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" kind="18" type="11" default="MercurySSm-Book" >
+<attrib Name="TextCheckboxes" parent="Textual" editable="1" visibleInEditor="1" type="10" default="" >
 </attrib>
-<attrib Name="TextFontSize" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" kind="19" type="2" default="16" >
 </attrib>
-<attrib Name="TextHighlightBlue" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="1" default="#3399FF" >
+<attrib Name="Watch" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="DEVONthinkGroup" parent="Watch" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="TextHighlightGreen" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="1" default="#33FF66" >
+<attrib Name="DEVONthinkLabel" parent="Watch" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="TextHighlightMagenta" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="1" default="#ff66ff" >
+<attrib Name="EvernoteNotebook" parent="Watch" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="TextHighlightRed" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="1" default="#FF5533" >
+<attrib Name="NotesFolder" parent="Watch" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="TextHighlightYellow" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="1" default="#ffff00" >
+<attrib Name="NotesID" parent="Watch" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="TextPaneRatio" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="2" default="0.5" >
+<attrib Name="NotesModified" parent="Watch" editable="1" visibleInEditor="1" type="5" default="never" >
 </attrib>
-<attrib Name="TextPaneWidth" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="2" default="-1" >
+<attrib Name="SimplenoteKey" parent="Watch" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="TextSidebar" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" kind="17" type="4" default="false" >
+<attrib Name="SimplenoteModified" parent="Watch" editable="1" visibleInEditor="1" type="5" default="never" >
 </attrib>
-<attrib Name="TextWindowHeight" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="2" default="250" >
+<attrib Name="SimplenoteSync" parent="Watch" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="TextWindowWidth" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="2" default="475" >
+<attrib Name="SimplenoteTags" parent="Watch" editable="1" visibleInEditor="1" type="8" default="" >
 </attrib>
-<attrib Name="TitleBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" kind="12" type="1" default="#000000" >
+<attrib Name="SimplenoteVersion" parent="Watch" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="TitleFont" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" kind="4" type="11" default="IdealSansSSm-Book" >
+<attrib Name="SourceURL" parent="Watch" editable="1" visibleInEditor="1" type="9" default="" >
 </attrib>
-<attrib Name="TitleForegroundColor" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" kind="11" type="1" default="#ffffff" >
+<attrib Name="Tot" parent="Watch" editable="1" visibleInEditor="1" type="8" default="" >
 </attrib>
-<attrib Name="Ziplinks" parent="TextFormat" editable="1" visibleInEditor="1" lines="1" type="4" default="true" >
+<attrib Name="UUID" parent="Watch" editable="1" visibleInEditor="1" default="" >
 </attrib>
+<attrib Name="WatchFolder" parent="Watch" editable="1" visibleInEditor="1" type="3" default="" >
 </attrib>
-<attrib Name="Textual" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="EstimatedNoteSize" parent="Textual" editable="0" visibleInEditor="1" lines="1" type="2" default="0" >
 </attrib>
-<attrib Name="ImageCount" parent="Textual" editable="0" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="Weblog" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="WeblogPostID" parent="Weblog" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="ReadOnly" parent="Textual" editable="1" visibleInEditor="1" lines="1" type="4" default="false" >
+<attrib Name="mt_allow_comments" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
 </attrib>
-<attrib Name="Text" parent="Textual" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="mt_allow_pings" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
 </attrib>
-<attrib Name="TextCheckboxes" parent="Textual" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
+<attrib Name="mt_convert_breaks" parent="Weblog" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="TextExportTemplate" parent="Textual" editable="1" visibleInEditor="1" lines="1" default="outline" >
+<attrib Name="mt_keywords" parent="Weblog" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="TextLength" parent="Textual" editable="0" visibleInEditor="1" lines="1" type="2" default="0" >
 </attrib>
-<attrib Name="UpdateTextLinksAfterRename" parent="Textual" editable="1" visibleInEditor="1" lines="1" type="4" default="true" >
+<attrib Name="Gaudi" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="GaudiHidden" parent="Gaudi" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
 </attrib>
-<attrib Name="WordCount" parent="Textual" editable="0" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="Xg" parent="Gaudi" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="Wordcount" parent="Textual" editable="0" visibleInEditor="0" lines="1" type="2" default="0" >
+<attrib Name="Yg" parent="Gaudi" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
 </attrib>
-<attrib Name="Watch" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="DEVONthinkGroup" parent="Watch" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="InformationCity" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="CityData" parent="InformationCity" editable="1" visibleInEditor="1" type="13" default="" >
 </attrib>
-<attrib Name="DEVONthinkLabel" parent="Watch" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="CityHidden" parent="InformationCity" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
 </attrib>
-<attrib Name="EvernoteNotebook" parent="Watch" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="CityKind" parent="InformationCity" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="NotesFolder" parent="Watch" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="CityRotate" parent="InformationCity" editable="1" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="NotesID" parent="Watch" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="CityX" parent="InformationCity" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="NotesModified" parent="Watch" editable="1" visibleInEditor="1" lines="1" type="5" default="never" >
+<attrib Name="CityY" parent="InformationCity" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
-<attrib Name="SimplenoteKey" parent="Watch" editable="1" visibleInEditor="1" lines="1" default="" >
 </attrib>
-<attrib Name="SimplenoteModified" parent="Watch" editable="1" visibleInEditor="1" lines="1" type="5" default="never" >
+<attrib Name="Poster" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="PosterCSS" parent="Poster" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="SimplenoteSync" parent="Watch" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="PosterLabels" parent="Poster" editable="1" visibleInEditor="1" type="10" default="" >
 </attrib>
-<attrib Name="SimplenoteTags" parent="Watch" editable="1" visibleInEditor="1" lines="1" type="8" default="" >
+<attrib Name="PosterSettings" parent="Poster" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="SimplenoteVersion" parent="Watch" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
+<attrib Name="PosterTemplate" parent="Poster" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="SourceURL" parent="Watch" editable="1" visibleInEditor="1" lines="1" type="9" default="" >
+<attrib Name="PosterURL" parent="Poster" editable="1" visibleInEditor="1" type="9" default="" >
 </attrib>
-<attrib Name="Tot" parent="Watch" editable="1" visibleInEditor="1" lines="1" type="8" default="" >
+<attrib Name="PosterX" parent="Poster" editable="1" visibleInEditor="1" type="10" default="" >
 </attrib>
-<attrib Name="UUID" parent="Watch" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="PosterY" parent="Poster" editable="1" visibleInEditor="1" type="10" default="" >
 </attrib>
-<attrib Name="WatchFolder" parent="Watch" editable="1" visibleInEditor="1" lines="1" type="3" default="" >
+<attrib Name="PosterZoom" parent="Poster" editable="1" visibleInEditor="1" type="2" default="1" >
 </attrib>
+<attrib Name="ScreenHeight" parent="Poster" editable="0" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="Weblog" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
-<attrib Name="WeblogPostID" parent="Weblog" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="ScreenWidth" parent="Poster" editable="0" visibleInEditor="1" type="2" default="0" >
 </attrib>
-<attrib Name="mt_allow_comments" parent="Weblog" editable="1" visibleInEditor="1" lines="1" type="2" default="1" >
 </attrib>
-<attrib Name="mt_allow_pings" parent="Weblog" editable="1" visibleInEditor="1" lines="1" type="2" default="1" >
+<attrib Name="Table" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="TableAttributes" parent="Table" editable="1" visibleInEditor="1" type="10" default="" >
 </attrib>
-<attrib Name="mt_convert_breaks" parent="Weblog" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="TableFormat" parent="Table" editable="1" visibleInEditor="1" type="13" default="" >
 </attrib>
-<attrib Name="mt_keywords" parent="Weblog" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="TableHidden" parent="Table" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
 </attrib>
 </attrib>
-<attrib Name="User" parent="anything" editable="0" visibleInEditor="1" lines="1" default="" >
+<attrib Name="User" parent="anything" editable="0" visibleInEditor="1" default="" >
 </attrib>
 </attrib>
 <colors >
@@ -1026,7 +1026,7 @@
 <linkType name="update" visible="1" showLabel="1" required="0" colorString="#000000" style="0" arrowType="0" >
 </linkType>
 </linkTypes>
-<item ID="1771294588" Creator="Win Treese" >
+<item ID="1771359374" Creator="Win Treese" >
 <attribute name="Created" >2026-02-14T13:22:42-05:00</attribute>
 <attribute name="MapScrollX" >0</attribute>
 <attribute name="MapScrollY" >0</attribute>
@@ -1064,7 +1064,16 @@
 <attribute name="Created" >2026-02-16T19:17:43-05:00</attribute>
 <attribute name="Modified" >2026-02-16T19:17:43-05:00</attribute>
 <attribute name="Name" >This note was added with Tinderbox 11.5.2</attribute>
+<attribute name="SelectionCount" >1</attribute>
 <attribute name="Xpos" >9</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1771359381" Creator="Win Treese" >
+<attribute name="Created" >2026-02-17T15:16:17-05:00</attribute>
+<attribute name="Modified" >2026-02-17T15:16:17-05:00</attribute>
+<attribute name="Name" >WT adding a note via Github desktop</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Xpos" >18</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1771294600" Creator="Win Treese" >
@@ -1077,7 +1086,16 @@
 <attribute name="Created" >2026-02-16T21:16:47-05:00</attribute>
 <attribute name="Modified" >2026-02-16T21:16:47-05:00</attribute>
 <attribute name="Name" >2026-02-16: Added a Changelog container</attribute>
+<attribute name="SelectionCount" >1</attribute>
 <attribute name="Xpos" >18</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1771359390" Creator="Win Treese" >
+<attribute name="Created" >2026-02-17T15:16:29-05:00</attribute>
+<attribute name="Modified" >2026-02-17T15:16:29-05:00</attribute>
+<attribute name="Name" >2026-02-17: WT: Added note with GitHub Desktop</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Xpos" >22.5</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 </item>
@@ -1133,19 +1151,12 @@
 <AutomaticLinkDetection > 1</AutomaticLinkDetection>
 <HiddenTabBar > 0</HiddenTabBar>
 <TextPaneSelectorHidden > 1</TextPaneSelectorHidden>
-<ExpandLinkController > 0</ExpandLinkController>
 <ForbidAnalytics > 0</ForbidAnalytics>
-<AllowMCP > 0</AllowMCP>
-<MCPConsent > 1</MCPConsent>
-<SpellChecking > 0</SpellChecking>
-<ParseNames > 1</ParseNames>
-<AllowMapZoom > 1</AllowMapZoom>
 <OutlineLeading > 2</OutlineLeading>
 <InteriorScale > 1</InteriorScale>
 <InteriorScaleNew > 1.5</InteriorScaleNew>
 <ExpandMode > 1</ExpandMode>
 <AfterLinkingSelect > 1</AfterLinkingSelect>
-<FindWidth > 300</FindWidth>
 <ExportImageFormat > 1</ExportImageFormat>
 <ExportURL > http://</ExportURL>
 <ExportHTMLHelper > Safari</ExportHTMLHelper>
@@ -1165,7 +1176,7 @@
 <WarnEditingDefault > 1</WarnEditingDefault>
 <WarnDuplicateName > 1</WarnDuplicateName>
 <RunScriptsAutomatically > 1</RunScriptsAutomatically>
-<Version > version 11.5.2</Version>
+<Version > version 9.2.0</Version>
 <PreferencePane > 0</PreferencePane>
 <LastBadgeFamily > 1</LastBadgeFamily>
 <TipWindowX > 300</TipWindowX>
@@ -1215,6 +1226,7 @@
 <LastLinkName > *untitled</LastLinkName>
 <UsingGuides > 1</UsingGuides>
 <TextColorString > black</TextColorString>
+<TextBackgroundColorString > white</TextBackgroundColorString>
 <SystemAttributesCategory > </SystemAttributesCategory>
 <SystemAttributesSelection > </SystemAttributesSelection>
 <CheckMail > 0</CheckMail>
@@ -1225,10 +1237,6 @@
 <SimplenoteEmail > </SimplenoteEmail>
 <SimplenotePassword > </SimplenotePassword>
 <SimplenoteTag > </SimplenoteTag>
-<ReadwiseToken > </ReadwiseToken>
-<ZoteroName > </ZoteroName>
-<ZoteroKey > </ZoteroKey>
-<ZoteroStyle > </ZoteroStyle>
 <MapBackgroundColor > 0 0 0</MapBackgroundColor>
 <MapBackgroundColor2 > 0 0 0</MapBackgroundColor2>
 <TextColor > 0 0 0</TextColor>
@@ -1248,13 +1256,12 @@
 <TextLinkColor > 0 26112 52224</TextLinkColor>
 <MapLabelSize > 3</MapLabelSize>
 <LastVersionString > b702</LastVersionString>
-<LastNewsItem > The Tinderbox Way.html</LastNewsItem>
 </preferences>
 <windows >
 <window bounds="Rect[ 79 310 1232 935]" ruler="0" toolbar="0" >
 <tabs >
-<tab selected="0" name="" subtitle="" viewType="0" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1771294588" scrollX="379.5" scrollY="337" mapscrollX="379.5" mapscrollY="337" selection="" expanded="" textTab="0" splitRatio="0.594241" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1771294579" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1771294579" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
-<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1771294588" scrollX="287.25" scrollY="108.1" mapscrollX="287.25" mapscrollY="64.5001" selection="" expanded="" textTab="0" splitRatio="0.5" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1771294579" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1771294579" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
+<tab selected="0" name="" subtitle="" viewType="0" usingRoadmap="0" hideBreadcrumbs="0" scale="32" ID="1771359374" scrollX="379.5" scrollY="337" selection="" expanded="" textTab="0" splitRatio="0.594241" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1771359373" crosslinks="1" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName=""  />
+<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" scale="32" ID="1771359374" scrollX="287.25" scrollY="108.1" selection="1771359390 " expanded="1771294600 " textTab="0" splitRatio="0.5" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1771359373" crosslinks="1" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName=""  />
 </tabs>
 </window>
 </windows>
@@ -1268,4 +1275,6 @@
 </gallery>
 <badges limit="14" >
 </badges>
+<preview >
+JVBERi0xLjMKJcTl8uXrp/Og0MTGCjMgMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL0xlbmd0aCAxMjk1ID4+CnN0cmVhbQp4Ac1YTZOjNhC98yv6aB/GRkIg2Ft2ktpUTtkaV80hlQNr44+Kx96xZzP5+XndEhgssMnHYXeqljZIrVa/p+4Hr/SZXmn+eFa0PFM8y20aq8S0LEXnJSWaTGJmKb1QUnhzL6a2uAtTR8abW1o7h49PcGNym2jLDtMs15nSsDKttbKKnh6xtqIYfw98MQZRYAUdZfVSbMhCKvHrkLe29ITY4Yx2A14IkyMJ2Hnh8f3rEW9CRrrdiGf4veTFZPzPRtiQs3hr3kJ+VE7YPlwog+xwyJozxkaTDslvkA54rNMBP63wrK3z8XHBbl2WDGlSGS1eaL5YKiRvsabfaPK4LQ+ban+cRhlNNlP6nRa/0E+L7ob/J483SZI2yBkxHUlMweBFzCJnSlZamwX2WeKwZ9QcFg418C3EPhrCfshLiH09MurBvoX7DfoCr7hLPs5wlkTg8AjMnhdUrla7w4ZKOhzfpgBzUtGfu5I+7d62377Qqjr/MY1w1z07fr2Bq9vNnVUjMGXcqhxL36oN9qBtXSqaAmHzGjkjpsPeKsZeKog3+UR0sc9TzhnoMQb7wXOfp/3VI8S+Htl37gPssdWwdPVj7/wOowAw3XldbHfnFujvAB8ZL8/MiGpF7yAALaakcXN3WFWnL0eMwNH+C+Nm6ZQe0mgy0zf4cC+SpnI0kTDRKvoXkdBVJA0zejiSxsadbTYcP4rYs0OMgBtpbIEql47EzUzcPGXdNLkO9gI3m5lVz472wp8O/y6jfHQcW8CaepQhLvQJyoaKOAgeGJCmt9/1ksZvcJg0XajAmxLVYludWvw5HwU4EKSipZSM8kDnqiKMo9VuvZ4Snp2H+eL3FgYRXXca4cuIILiCXAfBzakTREMVpKtTTjIDccGF44WgE5y5FzNnFbKPeIAzw1aSFDkXAgxx5QQeXCuB4VsJntUyYqiVDHoJiNGM9K0Ey/TIiDFqaP4JOmxzplccxkYVefcqzkjFSAgbdqaTPLV8J5nZDPIghanw/5KKXB7m+FFcRkawMR2PcdUyR1+GKjcdF2iZ2qXcbI32ESzvZIzjECmEq+LTOpSwIo/8hoAGVwEeyBItZ8j5KLKR53hic2/kjLvGHVQL9yi3bOBYs4FZrLie6SBTxAmPlPsyheeKNzbcyPmv1WlZfX37Vu7ptIs6pcEnf/60RZvb/uP4fFiyh6v4pGQ4UgSK8qItryUy4uFWicT4/EjisCG5IjvoEpIc99v6+9Alst06w75eoUIHgpQltdfnqFdgpGZGcg5zIJLaQqy9syy3djyzKXZ6R+kGjpO248y7xVWciVOJec0TazE+8hQZOUWoQe1TxInj37wLi+swM2PS3C94GIyBEj+kC5Cy1O2s82KiYpc5BDGizOp4ivM70Rn3epo8uIu/+aDsB3qGPshQZD/QD6IZLhJS1AM05M/oBKi4UJI/spLkityn6Vp8/25jRCUBCwoTJ6lO/Qtpql2DwAuCM/GCAVNJg+CWX5sNL0eSJwN63SqQauko8PlfBCq89MvcoEBe1ht+Obl/dsOXE+93BP+aNk+H6v2iNGY3JITL0cdFdO9ldYzvRg9ci0h0boP+5ZWBM0UZmDiVFw0e4M1ATBpVMAIjlYH0o74PDKpw+sJ/pmj0RYAj1vNKxOHYUQaBZhwqKFc48iH1jkMg6y8DzZvGnUKS1eWjpOYbAmvFDXQkX4+H1htouTtUpwEGfEdRff4bWxgRsAplbmRzdHJlYW0KZW5kb2JqCjEgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvUmVzb3VyY2VzIDQgMCBSIC9Db250ZW50cyAzIDAgUiAvTWVkaWFCb3ggWzAgMCA1NzYgNTM4XQo+PgplbmRvYmoKNCAwIG9iago8PCAvUHJvY1NldCBbIC9QREYgL1RleHQgXSAvQ29sb3JTcGFjZSA8PCAvQ3MxIDUgMCBSID4+IC9FeHRHU3RhdGUgPDwgL0dzMQo4IDAgUiAvR3MyIDkgMCBSIC9HczMgMTAgMCBSIC9HczQgMTEgMCBSIC9HczUgMTIgMCBSIC9HczYgMTMgMCBSID4+IC9Gb250Cjw8IC9UYzEgNiAwIFIgPj4gL1NoYWRpbmcgPDwgL1NoMSA3IDAgUiA+PiA+PgplbmRvYmoKNyAwIG9iago8PCAvQ29sb3JTcGFjZSAxNCAwIFIgL1NoYWRpbmdUeXBlIDIgL0Nvb3JkcyBbIDg0IDQgODQgMTYgXSAvRG9tYWluIFsgMCAxCl0gL0V4dGVuZCBbIHRydWUgdHJ1ZSBdIC9GdW5jdGlvbiAxNSAwIFIgPj4KZW5kb2JqCjggMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvQ0EgMC41ID4+CmVuZG9iago5IDAgb2JqCjw8IC9UeXBlIC9FeHRHU3RhdGUgL2NhIDAuMTI1ID4+CmVuZG9iagoxMCAwIG9iago8PCAvVHlwZSAvRXh0R1N0YXRlIC9jYSAwLjQgPj4KZW5kb2JqCjExIDAgb2JqCjw8IC9UeXBlIC9FeHRHU3RhdGUgL0NBIDAuMyA+PgplbmRvYmoKMTIgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvY2EgMSA+PgplbmRvYmoKMTMgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvQ0EgMSA+PgplbmRvYmoKMTYgMCBvYmoKPDwgL04gMyAvQWx0ZXJuYXRlIC9EZXZpY2VSR0IgL0xlbmd0aCAyNjEyIC9GaWx0ZXIgL0ZsYXRlRGVjb2RlID4+CnN0cmVhbQp4AZ2Wd1RT2RaHz703vdASIiAl9Bp6CSDSO0gVBFGJSYBQAoaEJnZEBUYUESlWZFTAAUeHImNFFAuDgmLXCfIQUMbBUURF5d2MawnvrTXz3pr9x1nf2ee319ln733XugBQ/IIEwnRYAYA0oVgU7uvBXBITy8T3AhgQAQ5YAcDhZmYER/hEAtT8vT2ZmahIxrP27i6AZLvbLL9QJnPW/3+RIjdDJAYACkXVNjx+JhflApRTs8UZMv8EyvSVKTKGMTIWoQmirCLjxK9s9qfmK7vJmJcm5KEaWc4ZvDSejLtQ3pol4aOMBKFcmCXgZ6N8B2W9VEmaAOX3KNPT+JxMADAUmV/M5yahbIkyRRQZ7onyAgAIlMQ5vHIOi/k5aJ4AeKZn5IoEiUliphHXmGnl6Mhm+vGzU/liMSuUw03hiHhMz/S0DI4wF4Cvb5ZFASVZbZloke2tHO3tWdbmaPm/2d8eflP9Pch6+1XxJuzPnkGMnlnfbOysL70WAPYkWpsds76VVQC0bQZA5eGsT+8gAPIFALTenPMehmxeksTiDCcLi+zsbHMBn2suK+g3+5+Cb8q/hjn3mcvu+1Y7phc/gSNJFTNlReWmp6ZLRMzMDA6Xz2T99xD/48A5ac3Jwyycn8AX8YXoVVHolAmEiWi7hTyBWJAuZAqEf9Xhfxg2JwcZfp1rFGh1XwB9hTlQuEkHyG89AEMjAyRuP3oCfetbEDEKyL68aK2Rr3OPMnr+5/ofC1yKbuFMQSJT5vYMj2RyJaIsGaPfhGzBAhKQB3SgCjSBLjACLGANHIAzcAPeIACEgEgQA5YDLkgCaUAEskE+2AAKQTHYAXaDanAA1IF60AROgjZwBlwEV8ANcAsMgEdACobBSzAB3oFpCILwEBWiQaqQFqQPmULWEBtaCHlDQVA4FAPFQ4mQEJJA+dAmqBgqg6qhQ1A99CN0GroIXYP6oAfQIDQG/QF9hBGYAtNhDdgAtoDZsDscCEfCy+BEeBWcBxfA2+FKuBY+DrfCF+Eb8AAshV/CkwhAyAgD0UZYCBvxREKQWCQBESFrkSKkAqlFmpAOpBu5jUiRceQDBoehYZgYFsYZ44dZjOFiVmHWYkow1ZhjmFZMF+Y2ZhAzgfmCpWLVsaZYJ6w/dgk2EZuNLcRWYI9gW7CXsQPYYew7HA7HwBniHHB+uBhcMm41rgS3D9eMu4Drww3hJvF4vCreFO+CD8Fz8GJ8Ib4Kfxx/Ht+PH8a/J5AJWgRrgg8hliAkbCRUEBoI5wj9hBHCNFGBqE90IoYQecRcYimxjthBvEkcJk6TFEmGJBdSJCmZtIFUSWoiXSY9Jr0hk8k6ZEdyGFlAXk+uJJ8gXyUPkj9QlCgmFE9KHEVC2U45SrlAeUB5Q6VSDahu1FiqmLqdWk+9RH1KfS9HkzOX85fjya2Tq5FrleuXeyVPlNeXd5dfLp8nXyF/Sv6m/LgCUcFAwVOBo7BWoUbhtMI9hUlFmqKVYohimmKJYoPiNcVRJbySgZK3Ek+pQOmw0iWlIRpC06V50ri0TbQ62mXaMB1HN6T705PpxfQf6L30CWUlZVvlKOUc5Rrls8pSBsIwYPgzUhmljJOMu4yP8zTmuc/jz9s2r2le/7wplfkqbip8lSKVZpUBlY+qTFVv1RTVnaptqk/UMGomamFq2Wr71S6rjc+nz3eez51fNP/k/IfqsLqJerj6avXD6j3qkxqaGr4aGRpVGpc0xjUZmm6ayZrlmuc0x7RoWgu1BFrlWue1XjCVme7MVGYls4s5oa2u7act0T6k3as9rWOos1hno06zzhNdki5bN0G3XLdTd0JPSy9YL1+vUe+hPlGfrZ+kv0e/W3/KwNAg2mCLQZvBqKGKob9hnmGj4WMjqpGr0SqjWqM7xjhjtnGK8T7jWyawiZ1JkkmNyU1T2NTeVGC6z7TPDGvmaCY0qzW7x6Kw3FlZrEbWoDnDPMh8o3mb+SsLPYtYi50W3RZfLO0sUy3rLB9ZKVkFWG206rD6w9rEmmtdY33HhmrjY7POpt3mta2pLd92v+19O5pdsN0Wu067z/YO9iL7JvsxBz2HeIe9DvfYdHYou4R91RHr6OG4zvGM4wcneyex00mn351ZzinODc6jCwwX8BfULRhy0XHhuBxykS5kLoxfeHCh1FXbleNa6/rMTdeN53bEbcTd2D3Z/bj7Kw9LD5FHi8eUp5PnGs8LXoiXr1eRV6+3kvdi72rvpz46Pok+jT4Tvna+q30v+GH9Av12+t3z1/Dn+tf7TwQ4BKwJ6AqkBEYEVgc+CzIJEgV1BMPBAcG7gh8v0l8kXNQWAkL8Q3aFPAk1DF0V+nMYLiw0rCbsebhVeH54dwQtYkVEQ8S7SI/I0shHi40WSxZ3RslHxUXVR01Fe0WXRUuXWCxZs+RGjFqMIKY9Fh8bFXskdnKp99LdS4fj7OIK4+4uM1yWs+zacrXlqcvPrpBfwVlxKh4bHx3fEP+JE8Kp5Uyu9F+5d+UE15O7h/uS58Yr543xXfhl/JEEl4SyhNFEl8RdiWNJrkkVSeMCT0G14HWyX/KB5KmUkJSjKTOp0anNaYS0+LTTQiVhirArXTM9J70vwzSjMEO6ymnV7lUTokDRkUwoc1lmu5iO/kz1SIwkmyWDWQuzarLeZ0dln8pRzBHm9OSa5G7LHcnzyft+NWY1d3Vnvnb+hvzBNe5rDq2F1q5c27lOd13BuuH1vuuPbSBtSNnwy0bLjWUb326K3tRRoFGwvmBos+/mxkK5QlHhvS3OWw5sxWwVbO3dZrOtatuXIl7R9WLL4oriTyXckuvfWX1X+d3M9oTtvaX2pft34HYId9zd6brzWJliWV7Z0K7gXa3lzPKi8re7V+y+VmFbcWAPaY9kj7QyqLK9Sq9qR9Wn6qTqgRqPmua96nu37Z3ax9vXv99tf9MBjQPFBz4eFBy8f8j3UGutQW3FYdzhrMPP66Lqur9nf19/RO1I8ZHPR4VHpcfCj3XVO9TXN6g3lDbCjZLGseNxx2/94PVDexOr6VAzo7n4BDghOfHix/gf754MPNl5in2q6Sf9n/a20FqKWqHW3NaJtqQ2aXtMe9/pgNOdHc4dLT+b/3z0jPaZmrPKZ0vPkc4VnJs5n3d+8kLGhfGLiReHOld0Prq05NKdrrCu3suBl69e8blyqdu9+/xVl6tnrjldO32dfb3thv2N1h67npZf7H5p6bXvbb3pcLP9luOtjr4Ffef6Xfsv3va6feWO/50bA4sG+u4uvnv/Xtw96X3e/dEHqQ9eP8x6OP1o/WPs46InCk8qnqo/rf3V+Ndmqb307KDXYM+ziGePhrhDL/+V+a9PwwXPqc8rRrRG6ketR8+M+YzderH0xfDLjJfT44W/Kf6295XRq59+d/u9Z2LJxPBr0euZP0reqL45+tb2bedk6OTTd2nvpqeK3qu+P/aB/aH7Y/THkensT/hPlZ+NP3d8CfzyeCZtZubf94Tz+wplbmRzdHJlYW0KZW5kb2JqCjUgMCBvYmoKWyAvSUNDQmFzZWQgMTYgMCBSIF0KZW5kb2JqCjE3IDAgb2JqCjw8IC9OIDMgL0FsdGVybmF0ZSAvRGV2aWNlUkdCIC9MZW5ndGggMTA3MiAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAGFVVtoHFUY/jdzdlfIOg9im5pKOnhrKEnZpKIJtdG9JJtt43bZXLRBkM3s2Z1pJjvjzGx6ofhQBEEEo4JPgve3Qp+EeKm2L7aI0kKJEgyi4EPrjUKlLxLW78zszu6GYGfZM9/8/3++//zff84MUfRK0bKMLoVoqerahUxSef7YvBJdpy56gLqpl7qLqmMl8vkpwiVixb3zuvMDhYTl+uD2/s7oLU/dJe6oRKF7YDdLjroEfJIo/Jpq2S5RlME+csK1BH4K+H4bCwTOC1zxcUngBR9jLmJmCinEvA4sq1oR/ui7wAMLbfZKG/bXgAjMzfAqt3VVEVrkbbOsG9xz+MNd3G2R/weXjBpq9q49GGPO4vQR3PtR+yulYlrgR4DPqcXx6Qa+tqzP5Rr4H8tNFoAfI+raVVucTQDvAx4r2xOzwODp0rTaZBOvnNZmnoP9PthXF80jYu5O4G+rC7mjwILnF9VJQVd6iEiKaDwr+t0H3G+bBRGD9UgTJZ4eBx4APq672Rlg5JLecZanhd3jOa2lxDqRS/rqePGw6FMv8DVuZERewf+75eYbeVmsauRELvCwYe549YKHxVxtZhJ25GXzLhrqz2Uvl/WJbCP+fc2eFHYx94pleHsUa2O37FpB1I5c4Qd5dVZoCM7wWNEezzRwieZCReJk0gJGlaq0SQoVKENJ3C2y4SmTTgYsHF4OC8dTM2awIybv+f34ZoRCFW/mDczUkSHV9wnVMF+jP8GnBUwKpfBUg61C2/P4K7jZ4DFZD4uzA/gfZFPsEBtho6Swp9kzbIylYR1lBwPufFsdYj03kcXneQkZuRc3h4ovoTKXihh/RYRJTsDQocVKb63f1+is/aKuXn3j1uUzX+5qxa6x1Reuxy6fadNMB9diENGp2tG7aR/+LXwjvIZxPbwRcCjhn8Ib+K1DrVaXtqou+iVUT6Amw+vEEurVUR1vq26wg6Odz2zla/SxyWiWqyu9vgpCAf5q7k6Ozg604uM/xv+Kr8U/iH8c/0N6W/pUuiB9Jn0ufUeKdFG6JH0tfSOdl74I4rfvub93gp57dQibqELsx2a97Ypif8pJebf8sJyW98iPylNBlCL3yEPypLwXnt1Bd1q7WenQQadj0Kyp1va5xMnQAyZoHboXfdZbGTvOxyxWrNMJcNpQX+yzKp1CbPs5a1TE+tgQy27Z1SNirwfc/nlo9qOpRGcNPDIeSUcSpET2RUYjQ5HDAjfPd2QvfKMY8dZy+Ul8W4hSpnXK1iuaqwzH408qCXzquJKtqvsHlKJhKJ7LUWzucHuZl/aT+E6KeUS3C973L7TzasvmPkt06G/x3mvZ5mtE5xyinsdbtn68G3e8R7T6hFqzl30+CoW+J3LKB4a951AsiXfXz/X6bbzDom8Rbb5Zr//7Yb2++RH4N4guGv8B/yV4CwplbmRzdHJlYW0KZW5kb2JqCjE0IDAgb2JqClsgL0lDQ0Jhc2VkIDE3IDAgUiBdCmVuZG9iagoxNSAwIG9iago8PCAvRnVuY3Rpb25UeXBlIDAgL0JpdHNQZXJTYW1wbGUgOCAvU2l6ZSBbIDEzNjUgXSAvRG9tYWluIFsgMCAxIF0gL1JhbmdlClsgMCAxIDAgMSAwIDEgXSAvTGVuZ3RoIDE0MSAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAGlwWdCgQEAAND7nynZZAuFaNhRyN58HcGP914Q3HEDV3ABZ3ACR3AAe7ADW7ABa7ACS7AAf2BuZmAKfsEPmIAx+AYjMAQD0Ac90AUd8AU+wYd5B23QAm+gCRqgDl7BC6iBKqiAZ1AGJVAEBZMHOZAFGfAE0iAFkiAB4iAGoiACwuARhMDDPf9nYs/nCmVuZHN0cmVhbQplbmRvYmoKMiAwIG9iago8PCAvVHlwZSAvUGFnZXMgL01lZGlhQm94IFswIDAgNTc2IDUzOF0gL0NvdW50IDEgL0tpZHMgWyAxIDAgUiBdID4+CmVuZG9iagoxOCAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgL1ZlcnNpb24gLzEuNCA+PgplbmRvYmoKNiAwIG9iago8PCAvVHlwZSAvRm9udCAvU3VidHlwZSAvVHlwZTEgL0Jhc2VGb250IC9BQUFBQUIrSWRlYWxTYW5zU1NtLUJvb2sgL0ZvbnREZXNjcmlwdG9yCjE5IDAgUiAvRW5jb2RpbmcgL01hY1JvbWFuRW5jb2RpbmcgL0ZpcnN0Q2hhciAzMiAvTGFzdENoYXIgMTIwIC9XaWR0aHMgWyAyNDYKMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgNTAzIDI2NiAwIDY3MSA0MDkgNTYwIDAgMCA1NTIgNjI3IDU2MiAwIDAgMjY2IDAgMAowIDAgMCAwIDczOSAwIDcxNyA3NzAgMCAwIDc3OCA4MTcgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDY3NSAwIDAgMTAzOCAwIDAgMAowIDAgMCAwIDAgMCA1NTUgNjI3IDU0OSA2MjYgNTc0IDM4MiA1NDMgNjIyIDI3OCAwIDUzNyAyNzggMCA2MjIgNjE3IDYyNyAwCjM5MiA0NzYgNDAyIDYyMyA1NDkgNzk5IDUyOCBdID4+CmVuZG9iagoxOSAwIG9iago8PCAvVHlwZSAvRm9udERlc2NyaXB0b3IgL0ZvbnROYW1lIC9BQUFBQUIrSWRlYWxTYW5zU1NtLUJvb2sgL0ZsYWdzIDMyIC9Gb250QkJveApbLTE2MiAtMjg1IDEzMDAgMTE5N10gL0l0YWxpY0FuZ2xlIDAgL0FzY2VudCA5NjAgL0Rlc2NlbnQgLTI0MCAvQ2FwSGVpZ2h0CjcwMyAvU3RlbVYgOTYgL1hIZWlnaHQgNTA1IC9TdGVtSCA4MyAvQXZnV2lkdGggMjc4IC9NYXhXaWR0aCAxNTI0IC9Gb250RmlsZTMKMjAgMCBSID4+CmVuZG9iagoyMCAwIG9iago8PCAvU3VidHlwZSAvVHlwZTFDIC9MZW5ndGggNzgxMiAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAGFmXdYFNfawHeB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89VaDQij3I3gPwx4dyWl/IhbMoOMn0i8QhYZYIovNkB2d3esYcnmGL0wJgvZbJmAu+qTGYyflSz+BqcTYF+IdfaHN57bAosP9tHosGjAFJ2pgw4Fd+INAVti9cLErMFbXeTKMC0F6P7vdmSuY28AODp7yxsUvDNBVZpL7CrDc+4asxrkVmOGTWGGbd5lyMnKMuit+Mq8IVufm5udY/2+KKsb/tqVWA6e6LvEi92pRQDSiHyOUXmI0WpWjAR7JnWl6BwuvxKLf8JI8PNxhNKYwgP+sNBuPonhplx23LTf3GESwA5to5XkZmPlwkgMeq+3tR9sjWyaUYItsTy1iQMOv70Q1S+AticSuwAQ/C3yJHzzloo56TErJwXLokJnB/N43f4pD60sbfVbiflWeSes6AS0tOmb2NfXjtzoCG0ZvxuLfQ+zIVwXSWiHiUk6GIL1d/UpIE+bTphPmIQy69WrHJRRNwHMzv6PW+LSJsm06g5A8gokAb412E0ZCPDHwlYM2he2cSC7kTfGhRkS2ZwgC0gyhW+nQCx2bvAA83AcVu7TgqxJjNnSvPHS1noddHAEPsbJWcG88M88gQUPxYcPpY9eWMm/gQL2Thj4Nmbe1tfIk2Wb1gEzzofDtYe1358EzNsKB1rYE5XaxDVBMU74x8km8D+QuA+kCmVuZHN0cmVhbQplbmRvYmoKMjEgMCBvYmoKPDwgL1Byb2R1Y2VyIChtYWNPUyBWZXJzaW9uIDI2LjIgXChCdWlsZCAyNUM1NlwpIFF1YXJ0eiBQREZDb250ZXh0KSAvQ3JlYXRpb25EYXRlCihEOjIwMjYwMjE3MjAxNjQ1WjAwJzAwJykgL01vZERhdGUgKEQ6MjAyNjAyMTcyMDE2NDVaMDAnMDAnKSA+PgplbmRvYmoKeHJlZgowIDIyCjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMTM5MCAwMDAwMCBuIAowMDAwMDA2Mzc1IDAwMDAwIG4gCjAwMDAwMDAwMjIgMDAwMDAgbiAKMDAwMDAwMTQ5NCAwMDAwMCBuIAowMDAwMDA0ODI4IDAwMDAwIG4gCjAwMDAwMDY1MjIgMDAwMDAgbiAKMDAwMDAwMTcwNCAwMDAwMCBuIAowMDAwMDAxODM3IDAwMDAwIG4gCjAwMDAwMDE4ODMgMDAwMDAgbiAKMDAwMDAwMTkzMSAwMDAwMCBuIAowMDAwMDAxOTc4IDAwMDAwIG4gCjAwMDAwMDIwMjUgMDAwMDAgbiAKMDAwMDAwMjA3MCAwMDAwMCBuIAowMDAwMDA2MDM3IDAwMDAwIG4gCjAwMDAwMDYwNzQgMDAwMDAgbiAKMDAwMDAwMjExNSAwMDAwMCBuIAowMDAwMDA0ODY0IDAwMDAwIG4gCjAwMDAwMDY0NTggMDAwMDAgbiAKMDAwMDAwNjk1MyAwMDAwMCBuIAowMDAwMDA3MjExIDAwMDAwIG4gCjAwMDAwMTUxMTQgMDAwMDAgbiAKdHJhaWxlcgo8PCAvU2l6ZSAyMiAvUm9vdCAxOCAwIFIgL0luZm8gMjEgMCBSIC9JRCBbIDw4ZDY1YWM0MTk5NTlkNDQ0YmNjYzc2OTZiN2QwMGFiOT4KPDhkNjVhYzQxOTk1OWQ0NDRiY2NjNzY5NmI3ZDAwYWI5PiBdID4+CnN0YXJ0eHJlZgoxNTI3NgolJUVPRgo=</preview>
 </tinderbox>
